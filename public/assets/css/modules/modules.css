@@ -302,6 +302,18 @@ button,
       color: rgba(255, 255, 255, 0.75);
     }
 
+      /* #main > #top {
+        back
+      } */
+
+      video {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+      }
+
       #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
         color: inherit;
       }
