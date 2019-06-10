@@ -135,7 +135,7 @@ button,
   position: fixed;
   text-align: right;
   top: 0;
-  width: 375px;
+  /* width: 375px; */
 }
 
   #header .top {
@@ -308,7 +308,7 @@ button,
         object-fit: cover;
         left: 300px;
         top: 0;
-        max-width: 100%;
+        min-width: 100%;
         z-index: -1;
         min-height: 100%;
       }
