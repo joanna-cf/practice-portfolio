@@ -298,24 +298,24 @@ button,
   }
 
     #main > section.dark {
+      z-index: 5;
       color: #ddd;
       color: rgba(255, 255, 255, 0.75);
     }
 
-      /* #main > #top {
-        back
-      } */
-
       video {
-        position: fixed;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
+        position: absolute;
+        object-fit: cover;
+        left: 300px;
+        top: 0;
+        max-width: 100%;
+        z-index: -1;
         min-height: 100%;
       }
 
       #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
         color: inherit;
+        z-index: inherit;
       }
 
       #main > section.dark strong {
@@ -339,7 +339,7 @@ button,
     }
 
     #main > section.one {
-      background-color: #81918E;
+      /* background-color: #81918E; */
       background-image: url("../../images/banner.jpg");
     }
 
